@@ -1,0 +1,172 @@
+Dependencies for Project 'lidar', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (.\main.c)(0x6A1C7A73)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+I (drv\inc\gpio.h)(0x695FC67A)
+I (drv\inc\uart.h)(0x699B46D6)
+I (drv\inc\i2c.h)(0x6A1C7420)
+I (drv\inc\timing.h)(0x699B245D)
+I (drv\inc\VL53L0X.h)(0x69FE116B)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (drv\inc\stepper.h)(0x6A1C74B1)
+F (.\drv\inc\gpio.h)(0x695FC67A)()
+F (.\drv\src\gpio.c)(0x6A1C78E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/gpio.o -MMD)
+I (drv\inc\gpio.h)(0x695FC67A)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+F (.\drv\inc\uart.h)(0x699B46D6)()
+F (.\drv\src\uart.c)(0x69FDC803)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/uart.o -MMD)
+I (drv\inc\uart.h)(0x699B46D6)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+F (.\drv\inc\i2c.h)(0x6A1C7420)()
+F (.\drv\src\i2c.c)(0x6A1C7747)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/i2c.o -MMD)
+I (drv\inc\i2c.h)(0x6A1C7420)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+I (drv\inc\timing.h)(0x699B245D)
+F (.\api\inc\vl53l0x_api.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_api_calibration.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_api_core.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_api_ranging.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_api_strings.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_def.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_device.h)(0x586E8F5E)()
+F (.\api\inc\vl53l0x_i2c_platform.h)(0x586A7054)()
+F (.\api\inc\vl53l0x_interrupt_threshold_settings.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_platform.h)(0x586A7054)()
+F (.\api\inc\vl53l0x_platform_log.h)(0x586A7054)()
+F (.\api\inc\vl53l0x_tuning.h)(0x586E8C92)()
+F (.\api\inc\vl53l0x_types.h)(0x586A7054)()
+F (.\api\src\vl53l0x_api.c)(0x699B4E80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_api.o -MMD)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_tuning.h)(0x586E8C92)
+I (api\inc\vl53l0x_interrupt_threshold_settings.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_core.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_calibration.h)(0x586E8C92)
+F (.\api\src\vl53l0x_api_calibration.c)(0x699B4E80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_api_calibration.o -MMD)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_api_core.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_calibration.h)(0x586E8C92)
+F (.\api\src\vl53l0x_api_core.c)(0x699B4E80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_api_core.o -MMD)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_api_core.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_calibration.h)(0x586E8C92)
+F (.\api\src\vl53l0x_api_ranging.c)(0x699B4E81)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_api_ranging.o -MMD)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_api_core.h)(0x586E8C92)
+F (.\api\src\vl53l0x_api_strings.c)(0x699B4E81)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_api_strings.o -MMD)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_api_core.h)(0x586E8C92)
+F (.\api\src\vl53l0x_i2c_platform.c)(0x69F91B11)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_i2c_platform.o -MMD)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (drv\inc\i2c.h)(0x6A1C7420)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+I (drv\inc\timing.h)(0x699B245D)
+F (.\api\src\vl53l0x_i2c_win_serial_comms.c)(0x696777DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_i2c_win_serial_comms.o -MMD)
+F (.\api\src\vl53l0x_platform.c)(0x699B4E82)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_platform.o -MMD)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+F (.\api\src\vl53l0x_platform_log.c)(0x696777DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x_platform_log.o -MMD)
+F (.\drv\inc\timing.h)(0x699B245D)()
+F (.\drv\src\timing.c)(0x6A1C7524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/timing.o -MMD)
+I (drv\inc\timing.h)(0x699B245D)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+F (.\drv\inc\VL53L0X.h)(0x69FE116B)()
+F (.\drv\src\VL53L0X.c)(0x6A1C74BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/vl53l0x.o -MMD)
+I (drv\inc\VL53L0X.h)(0x69FE116B)
+I (drv\inc\i2c.h)(0x6A1C7420)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+I (api\inc\vl53l0x_api.h)(0x586E8C92)
+I (api\inc\vl53l0x_api_strings.h)(0x586E8C92)
+I (api\inc\vl53l0x_def.h)(0x586E8C92)
+I (api\inc\vl53l0x_device.h)(0x586E8F5E)
+I (api\inc\vl53l0x_types.h)(0x586A7054)
+I (api\inc\vl53l0x_platform.h)(0x586A7054)
+I (api\inc\vl53l0x_platform_log.h)(0x586A7054)
+I (api\inc\vl53l0x_i2c_platform.h)(0x586A7054)
+I (drv\inc\timing.h)(0x699B245D)
+F (.\drv\inc\stepper.h)(0x6A1C74B1)()
+F (.\drv\src\stepper.c)(0x6A1C74AB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/stepper.o -MMD)
+I (drv\inc\stepper.h)(0x6A1C74B1)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)
+I (drv\inc\gpio.h)(0x695FC67A)
+F (RTE/Device/STM32F401CCUx/startup_stm32f401xc.s)(0x6374BA6A)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --diag_suppress=A1950W-I.\RTE\_Target_1-IC:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 542"--pd "STM32F401xC SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_stm32f401xc.lst--xref -o .\objects\startup_stm32f401xc.o--depend .\objects\startup_stm32f401xc.d)
+F (RTE/Device/STM32F401CCUx/system_stm32f4xx.c)(0x6374BA6A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drv/inc -I ./api/inc-I./RTE/_Target_1-IC:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="542" -DSTM32F401xC -D_RTE_-o ./objects/system_stm32f4xx.o -MMD)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x691A1CEA)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x691A1CE9)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C2CE8)
+I (C:\Users\Samed\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x691A1CEA)

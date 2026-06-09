@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.42.0.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Samed Sudzuka, a, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.42.0.0
+Toolchain Path:  C:\Users\Samed\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.23
+Assembler:       Armasm.exe V6.23
+Linker/Locator:  ArmLink.exe V6.23
+Library Manager: ArmAr.exe V6.23
+Hex Converter:   FromElf.exe V6.23
+CPU DLL:         SARMCM3.DLL V5.42.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+C:\Users\Samed\Desktop\maturski sve\v10\maturicaktesticak\lidar.uvprojx
+Project File Date:  05/31/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.23', folder: 'C:\Users\Samed\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling uart.c...
+compiling vl53l0x_api_ranging.c...
+api/src/vl53l0x_i2c_win_serial_comms.c(21): error: 'windows.h' file not found
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+1 error generated.
+compiling vl53l0x_i2c_win_serial_comms.c...
+compiling gpio.c...
+compiling vl53l0x_api_strings.c...
+compiling main.c...
+compiling vl53l0x_i2c_platform.c...
+compiling i2c.c...
+compiling vl53l0x_platform.c...
+api/src/vl53l0x_platform_log.c(21): error: 'windows.h' file not found
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+1 error generated.
+compiling vl53l0x_platform_log.c...
+compiling vl53l0x_api_calibration.c...
+assembling startup_stm32f401xc.s...
+compiling timing.c...
+compiling system_stm32f4xx.c...
+compiling stepper.c...
+compiling VL53L0X.c...
+api/src/vl53l0x_api_core.c(1768): warning: taking the absolute value of unsigned type 'FixPoint1616_t' (aka 'unsigned int') has no effect [-Wabsolute-value]
+ 1768 |                 xTalkCorrection  = abs(diff1_mcps/diff2_mcps);
+      |                                    ^
+api/src/vl53l0x_api_core.c(1768): note: remove the call to 'abs' since unsigned values cannot be negative
+ 1768 |                 xTalkCorrection  = abs(diff1_mcps/diff2_mcps);
+      |                                    ^~~
+1 warning generated.
+compiling vl53l0x_api_core.c...
+compiling vl53l0x_api.c...
+".\Objects\lidar.axf" - 2 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/Samed/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/Samed/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:Startup@2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Source file:   MDK/Device/Source/ARM/STM32F401xx_OPT.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f401xc.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
